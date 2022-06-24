@@ -1,0 +1,146 @@
+
+html{
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-size: 20px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+
+}
+.header{
+  background-image: url("images/blackhole.png");
+  background-size: cover;
+  font-size: 20px;
+}
+nav {
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding: .5em;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+}
+.header1,h2{
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+}
+.button {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: .67em;
+  cursor: pointer;
+}
+.btn2 {
+  padding: .67em;
+  border-radius: 50%;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.btn, .btn2:hover {
+  color:white;
+  background-color: hotpink;
+}
+.container ,.container2{
+  display: flex;
+}
+.p1 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+
+}
+.p2 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+  
+}
+.p3 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+}
+.p4 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+  
+  
+}
+.p5 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+  
+}
+.p6 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+}
+.p7 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+}
+.p8 {
+  flex: 1;
+  padding: 25px;
+  margin: 25px 50px 50px 25px;
+}
+.button2{
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.button2:hover{
+  color: beige;
+  background-color: hotpink;
+
+}
+.buy{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
+h3 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item, strong{
+  font-size: 25px;
+}
+.piclogo {
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li{
+  display: inline;
+ padding: 1em;
+}
